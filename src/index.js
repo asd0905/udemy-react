@@ -2,10 +2,10 @@ import _ from 'lodash';
 import React, {Component} from 'react'; // 컴포넌트의 기능 (모으고 합체하고)
 import ReactDOM from 'react-dom'; // 모아온 컴포넌트를 dom에 랜더링할 때 필요, 그래서 랜더할때도 ReactDOM
 import YTSearch from 'youtube-api-search';
-import SearchBar from './components/search_bar';
-import VideoList from './components/video_list';
-import VideoDetail from './components/video_detail';
-const API_KEY = 'AIzaSyAnf0FEStHpNKQfAW4o3r6VGALMYn3Aq1o';
+import SearchBar from './components/search_bar.js';
+import VideoList from './components/video_list.js';
+import VideoDetail from './components/video_detail.js';
+const API_KEY = 'AIzaSyAUhWgn34MFznJldo7tkEM0p1kGK7zLXgs';
 
 // Create a new component. this component should produce
 // some HTML

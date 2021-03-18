@@ -1,5 +1,6 @@
 module.exports = {
     entry: ['./src/index.js'],
+    devtool: 'inline-source-map', // 소스맵 만들것인가?
     output: {
         path: __dirname,
         publicPath: '/',
@@ -17,7 +18,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx', '.tsx']
     },
     devServer: {
         historyApiFallback: true,
